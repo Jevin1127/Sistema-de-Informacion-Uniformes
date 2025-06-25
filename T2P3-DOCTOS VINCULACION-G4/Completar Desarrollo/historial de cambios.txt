@@ -1,0 +1,187 @@
+-----------------------------------------------------------------------
+	Universidad Nacional Autonoma de Honduras (UNAH)
+		Facultad de Ciencias Economicas
+	Departamento de Informatica administrativa
+                   Evaluacion de Sistemas
+                    Segundo Periodo 2024
+
+
+Equipo:
+Jevin Salvador López Vega .......... (jevin.lopez@unah.hn)
+Ricardo Ariel Acosta Rodas...........(racosta@unah.hn)
+Sharon Alejandra Ramires Núñez...........(sharon.ramires@unah.hn)
+Emmanuel Alejandro Molina Zelaya...........(emmanuel.molina@unah.hn)
+Milton Leonardo Lopez Zelaya...........(mllopezz@unah.hn)
+Yanior Josiel Munguia Figueroa...........(yanior.munguia@unah.hn)
+Heyson Fabricio Mejia Mejia...........(heyson.mejia@unah.hn)
+
+Catedratico:
+Lic. Hector Enrique Hernandez Pedrano
+
+
+---------------------------------------------------------------------
+
+Programa:          Pantalla de Ingreso de Usuario
+Fecha:             14-julio-2024
+Programador:       Jevin López, Yanior Munguia
+descripcion:       Pantalla que recibe datos del usuario para logearse
+
+-----------------------------------------------------------------------
+
+                Historial de Cambio
+
+-----------------------------------------------------------------------
+
+Programador               Fecha                      Descripcion
+Jevin López	        14-julio-2024                Boton con Ojo para ver las contraseñas.
+Jevin López	        14-julio-2024                Validación de que exista el usuario.
+Jevin López	        14-julio-2024                Mensaje de bienvenida.
+Jevin López	        14-julio-2024                Cambio del emisor del correo para los cambios de contraseña.
+Yanior Munguia	        14-julio-2024                Validación de que las contraseñas no deben de ser igual a las 
+						     anteriores cuando se haga el cambio.
+
+-----------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------
+
+Programa:          CRUD de usuarios
+Fecha:             20-julio-2024
+Programador:       Jevin López
+descripcion:       Pantalla que se ingresan datos para ingresar un nuevo usuario
+
+-----------------------------------------------------------------------
+
+                Historial de Cambio
+
+-----------------------------------------------------------------------
+
+Programador               Fecha                      Descripcion
+Jevin López	        20-julio-2024                Los nombres de usuarios que se ingresan automaticamente se 
+						     ponen en mayusculas.
+Jevin López	        20-julio-2024                Los nombres completos de usuarios que se ingresan automaticamente se 
+						     ponen en mayusculas.
+Jevin López	        20-julio-2024                Las contraseñas no admiten espacios.
+Jevin López	        20-julio-2024                Ahora dá un mensaje en rojo abajo del textbox cuando 
+						     no se cumple una validación.
+
+-----------------------------------------------------------------------
+
+
+---------------------------------------------------------------------
+
+Programa:          CRUD de ROLES
+Fecha:             20-julio-2024
+Programador:       Jevin López
+descripcion:       Pantalla que se ingresan datos para ingresar un nuevo rol
+
+-----------------------------------------------------------------------
+
+                Historial de Cambio
+
+-----------------------------------------------------------------------
+
+Programador               Fecha                      Descripcion
+Jevin López	        20-julio-2024                Arreglo con el registro de Roles nuevos.
+Jevin López	        20-julio-2024                Arreglo para que los permisos fueran a los roles y no al usuario.
+Jevin López	        20-julio-2024                Los permisos se visualizan cuando se crea un rol y se edita.
+Jevin López	        20-julio-2024                Validación de que no puede ingresar un rol duplicado.
+
+-----------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------
+
+Programa:          Módulo de Entregas
+Fecha:             21-julio-2024
+Programador:       Yanior Munguia
+descripcion:       Pantalla que se entrega, abona y se manda a no reclamados
+
+-----------------------------------------------------------------------
+
+                Historial de Cambio
+
+-----------------------------------------------------------------------
+
+Programador               Fecha                      Descripcion
+Yanior Munguia	        21-julio-2024                Se añadió modificó el boton de "entregar" y ahora sale un boton
+						     de "abonar" o "no reclamado", dependiendo si el producto se está
+						     abonando por el cliente y lo paga completo se desbloqueará
+						     el boton de "entregar" y si se entrega pasa al módulo de "catálogo",
+						     si no se abonó y no se entregó el producto y se le dá al boton de 
+						     "no reclamado" y éste pasará al nuevo módulo de "No reclamados" donde estará
+						     una lista de los productos que no se entregaron y se le puede adjuntar
+						     una fotografía a cada producto.
+
+-----------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------
+
+Programa:          ZAP
+Fecha:             29-julio-2024
+Programador:       Jevin López
+descripcion:       Correcciones que se hicieron con ayuda de ZAP
+
+-----------------------------------------------------------------------
+
+                Historial de Cambio
+
+-----------------------------------------------------------------------
+
+Programador               Fecha                      Descripcion
+Jevin López	        29-julio-2024                Se hicieron correcciones de nivel: Medio, Bajo e Informativo
+						     que sugirió la aplicación ZAP.
+						     
+
+-----------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------
+
+Programa:          Ayuda al usuario
+Fecha:             31-julio-2024
+Programador:       Jevin López
+descripcion:       Pantalla inicio
+
+-----------------------------------------------------------------------
+
+                Historial de Cambio
+
+-----------------------------------------------------------------------
+
+Programador               Fecha                      Descripcion
+Jevin López	        31-julio-2024                Se añadió 3 botones: Ayuda: Éste se despliega un submenú y apareceran
+						     un texto con: Manual Técnico y Manual de usuario que al darle
+						     click a uno de estos nos mandará a los manuales para descargarlos
+						     o leerlos en la nube dependiendo del rol.
+						     
+
+-----------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------
+
+Programa:          Copia de Seguridad
+Fecha:             04-agosto-2024
+Programador:       Yanior Munguia
+descripcion:       Vista e interacción de un nuevo módulo: Reespaldo
+
+-----------------------------------------------------------------------
+
+                Historial de Cambio
+
+-----------------------------------------------------------------------
+
+Programador               Fecha                      Descripcion
+Yanior Munguia	        04-agosto-2024               Se añadió un nuevo módulo que sirve para hacer copias de 
+						     seguridad de la base de datos y restauraciones de la misma.
+						     
+
+-----------------------------------------------------------------------
+
